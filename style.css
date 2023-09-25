@@ -1,0 +1,84 @@
+:root {
+    --c1- : #d16ba5;
+    --c2- :#c777b9;
+    --c3- :#ba83ca;
+    --c4- :#aa8fd8 ;
+   --c5- :#9a9ae1;
+    --c6- :#8aa7ec;
+   --c7- :#79b3f4;
+   --c8- : #69bff8;
+  --c9- :  #52cffe ;
+   --c10- :#41dfff;
+  --c11-:  #46eefa;
+}
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-bl {
+    background-color: blac
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 1em;
+    margin: 3em;
+    border-radius: 100px;
+    transition: all ease 0.5s;
+}
+
+button:hover {
+    filter: brightness(1.5);
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    place-items : center;
+    place-content : center;
+    gap: 1em;
+}
+
+.c1 {background-color: var(--c1-);}
+.c3 { background-color: var(--c3-);}
+.c5 { background-color: var(--c5-);}
+.c7 { background-color: var(--c7-);}
+.c9 { background-color: var(--c9-);}
+.c11 { background-color: var(--c11-);}
+.c-white {color: white;}
+
+h2{
+    text-align: center;
+    background-clip: text;
+    color: rgb(255, 255, 255);
+}
+
+
+
+::-webkit-scrollbar 
+{
+       background-color: transparent;      width: 6px;  
+}
+
+
+    ::-webkit-scrollbar-thumb 
+
+{       background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca);
+
+ border-radius: 100px;  /* <-- imp */  
+}
+
+
+/* Customize the scrollbar track */
+.simplebar-track.simplebar-horizontal {
+    background-color: transparent;
+  }
+  
+  /* Customize the scrollbar thumb */
+  .simplebar-scrollbar.simplebar-visible.simplebar-scrollbar {
+    background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca);
+    border-radius: 100px;
+  }
+  
